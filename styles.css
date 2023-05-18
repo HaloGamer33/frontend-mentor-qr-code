@@ -1,0 +1,52 @@
+.background {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.div-background-square {
+  display: flex;
+  margin: auto;
+  margin-top: 15vh;
+  background-color: white;
+  width: 22vw;
+  height: 34vw;
+  border-radius: 1.5vw;
+  align-items: center;
+  flex-flow: column nowrap;
+  box-shadow: 0vh 1vh 5vh rgba(0, 0, 0, 0.1);
+}
+
+.div-image-container {
+  background-image: url(images/image-qr-code.png);
+  background-size: cover;
+  width: 19.5vw;
+  height: 19.5vw;
+  margin-top: 1.2vw;
+  border-radius: 0.6vw;
+  line-break: auto;
+}
+
+.div-line-break {
+  width: 100%;
+}
+
+.p-title {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5vw;
+  width: 18vw;
+  margin-bottom: 0px;
+  margin-top: 1.6vw;
+  color: hsl(218, 44%, 22%);
+}
+
+.p-subtitle {
+  text-align: center;
+  display: block;
+  font-size: 10px;
+  font-family: 'Outfit', sans-serif;
+  width: 18vw;
+  font-size: 1.05vw;
+  color: hsl(220, 15%, 55%);
+}
